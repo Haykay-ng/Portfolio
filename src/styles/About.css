@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #F5FCFF;
+}
+
+.left-side, .right-side {
+  flex: 1 1 45%;
+  margin: 20px;
+}
+
+.name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #282938;
+  margin-bottom: 10px;
+}
+
+.desc {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.exp {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.btn-no {
+  padding: 20px;
+  background-color: #1C1E53;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #333;
+}
+
+.right-side img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+ 
+  
+}
+
+main{
+  width: 100%;
+  padding: 133.33px, 85.33px, 133.33px, 85.33px ;
+  top: 120px;
+  background-color:#F5FCFF;
+  max-width: 400px;
+  
+
+}
+
+.left-side{
+  width: 790.67px ;
+  height: 526.67px ;
+  gap: 32px ;
+}
+
+.name{
+width:141px ;
+height: 32px ;
+font-family: 'Roboto';
+font-size: 21.33px;
+font-weight: 600;
+line-height: 32px;
+text-align: center;
+color: #282938;
+
+}
+
+.desc{
+width: 900px;
+height: 270px;
+gap: 0px;
+opacity: 0px;
+font-family: 'Roboto';
+font-size: 74.67px;
+font-weight: 700;
+line-height: 89.6px;
+text-align: left;
+
+}
+
+.Exp{
+width: 760px;
+height: 117px;
+font-family: 'Roboto';
+font-size: 26px;
+font-weight: 400;
+line-height: 39px;
+text-align: left;
+}
+
+.btn, .btn{
+width: 170.67px;
+height: 90.67px;
+padding: 21.33px 0px 0px 0px;
+gap: 21.33px;
+opacity: 0px;
+background-color: #1C1E53;
+border: none;
+}
+
+.right-side{
+width: 917.33px;
+height: 729.74px;
+gap: 0px;
+opacity: 0px;
+
+/* } */

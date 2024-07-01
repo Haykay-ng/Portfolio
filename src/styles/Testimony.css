@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.testimony-container {
+  padding: 20px;
+  margin-top: 50px;
+  box-sizing: border-box;
+  max-width: 1500px;
+  background: #F5FCFF;
+}
+
+.co-head{
+  margin-left: 50px;
+  gap: 10px;
+  /* border: 1px solid purple; */
+}
+
+.cards-container{
+  /* border: 1px solid red; */
+  display: flex;
+  margin-left: 50px;
+  /* justify-content: space-between; */
+  gap: 20px;
+}
+
+.card-test{
+  max-width: 400px;
+  margin-right: 50px;
+  align-content: center;
+  padding: 20px;
+  border: 1.33px solid #006B6A
+}
+
+.card-test, p{
+font-family: "Roboto";
+font-size: 15px;
+font-weight: 400;
+text-align: left;
+color: #1C1E53;
+
+
+}
+
+.stars{
+  width: 100px;
+}
+
+.avatar{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  /* flex-wrap: wrap; */
+}
+
+.avatar-img{
+  width: 40px;
+}
