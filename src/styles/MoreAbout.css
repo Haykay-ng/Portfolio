@@ -1,51 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 
 body {
-  font-family: 'Roboto', sans-serif;
-  margin: 0;
-  padding: 0;
+	font-family: "Roboto", sans-serif;
+	margin: 0;
+	padding: 0;
 }
 
 .port {
-  padding: 20px;
-  /* bottom: 0; */
-  margin-bottom: -470px;
-  
+	padding: 20px;
+	/* bottom: 0; */
+	margin-bottom: -470px;
 }
 
-.top-text{
-  display: flex;
-  justify-content: space-between;
-  justify-content: center;
-  gap: 114.67px;
-  padding: 80.33px;
-  /* background: #f5f5f5; */
-  max-width: 1500px;
-  margin: 0 ;
-  box-sizing: border-box;
+.top-text {
+	display: flex;
+	justify-content: space-between;
+	justify-content: center;
+	gap: 114.67px;
+	padding: 80.33px;
+	/* background: #f5f5f5; */
+	max-width: 1500px;
+	margin: 0;
+	box-sizing: border-box;
+	/* height: 50vh; */
 }
 
 .left-img img {
-  width: 500.33px;
-  max-width: 100%;
-  /* height: auto; */
-  border-radius: 10px;
+	width: 500.33px;
+	max-width: 100%;
+	/* height: auto; */
+	border-radius: 10px;
 }
 
 .right-me {
-padding: 20px;
- width: 821.33px ;
- height: 821.33px ;
- gap: 32px;
- margin-top: 170px;
+	padding: 20px;
+	width: 821.33px;
+	height: 821.33px;
+	gap: 32px;
+	margin-top: 170px;
 }
 
-.right-me h1, .right-me h4 {
-  margin: 0 0 20px;
+.right-me h1,
+.right-me h4 {
+	margin: 0 0 20px;
 }
 
 .right-me p {
-  margin: 0;
-  font-size: 1rem;
-  line-height: 1.6;
+	margin: 0;
+	font-size: 1rem;
+	line-height: 1.6;
 }
